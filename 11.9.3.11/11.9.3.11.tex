@@ -1,0 +1,43 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\title{Discrete 1}
+\author{EE23BTECH11037-M.Esha}
+\date{}
+
+\begin{document}
+
+\maketitle
+\textbf{11.9.3.11-} Evaluate 
+\[
+\sum_{k=1}^{11} (2 + 3^k)
+\]
+
+The expression for \(x(n)\) is given by:
+\[
+x(n) = 2(n+1) + \frac{3^{n+1} - 1}{2} \quad \text{where} \ n=0,1,2,...
+\]
+
+The solution of the summation
+\[
+\sum_{k=1}^{11} (2 + 3^k)
+\]
+is
+\[
+x(11) - x(0) = \left[2(12) + \frac{3^{12} - 1}{2}\right] - \left[2(1) + \frac{3^{1} - 1}{2}\right]
+\]
+
+Simplifying further:
+\[
+x(11) - x(0) = 24 + \frac{3^{12} - 1}{2} - \left[2(1) + 1\right]
+\]
+\[
+= 24 + \frac{3^{12} - 1}{2} - 3
+\]
+\[
+= 21+ \frac{3^{12} - 1}{2}
+\]
+
+
+\end{document}
+
